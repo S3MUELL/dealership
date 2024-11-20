@@ -1,0 +1,245 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 15vh;
+    width: 100%;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    background-color: black;
+    position: sticky;
+}
+
+.logo{
+    width: 50%;
+}
+
+.logo img{
+    width: 12%;
+    margin-left: 3vh;
+}
+
+#hero-banner{
+    width: 100%;
+    height: 80vh;
+    background-image: url(/img/herobn.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 10rem;
+}
+
+.selector{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+li{
+    margin-left: 3vh;
+    padding-top: 0.9vh;
+    color: white;
+    text-align: center;
+    width: 13vh;
+    height: 4vh;
+    border-radius: 3vh;
+    transition: 0.5s;
+}
+
+li:hover{
+    background-color: white;
+    color: black;
+}
+
+li:active{
+    opacity: 0.8;
+}
+
+.contact{
+    margin-right: 2vh;
+}
+
+.slogan{
+    color: white;
+    position: relative;
+    font-size: 4.5vh;
+    margin-top: 45vh;
+    margin-left: 5vh;
+}
+
+.read-more{
+    position: absolute;
+    width: 210px;
+    height: 50px;
+    border-radius: 4vh;
+    right: 15vh;
+    top: 84vh;
+    font-size: 2vh;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.read-more:hover{
+    background-color: rgb(189, 189, 189);
+}
+
+.read-more:active{
+    opacity: 0.8;
+}
+
+/*models*/
+
+.title{ 
+    font-size: 3.5vh;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.title:hover{
+    opacity: 0.6;
+}
+
+.title:active{
+    opacity: 0.2;
+}
+
+.desc{
+    margin-top: 3vh;
+    color: darkgray;
+    font-size: 2vh;
+}
+
+.price{
+    color: gray;
+    font-size: 1.8vh;
+}
+
+/*1*/
+
+#first-series{
+    margin-top: 30vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    display: flex;
+    flex-direction: row;
+    border-top: solid rgb(173, 173, 173) 1px;
+}
+
+.first{
+    margin-top: 10vh;
+}
+
+.firstM{
+    margin-top: 11vh;
+    margin-left: 20vh;
+}
+
+.one{
+    height: 17.5vh;
+    width: 28.5vh;
+    margin-left: 0.5vh;
+}
+
+.onem{
+    height: 16.8vh;
+    width: 29vh;
+    margin-left: 0.5vh;
+}
+
+/*2*/
+
+#second-series{
+    margin-top: 20vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    display: flex;
+    flex-direction: row;
+    border-top: solid rgb(173, 173, 173) 1px;
+}
+
+.second{
+    margin-top: 10vh;
+}
+
+.secondM{
+    margin-top: 11vh;
+    margin-left: 20vh;
+}
+
+.two{
+    height: 17.5vh;
+    width: 26.5vh;
+    margin-left: 0.5vh;
+}
+
+.twom{
+    height: 16.8vh;
+    width: 28vh;
+    margin-left: 0.5vh;
+}
+
+/*3*/
+
+#third-series{
+    margin-top: 20vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    display: flex;
+    flex-direction: row;
+    border-top: solid rgb(173, 173, 173) 1px;
+}
+
+.third{
+    margin-top: 10vh;
+}
+
+.threeM{
+    margin-top: 9vh;
+    margin-left: 20vh;
+}
+
+.threeT{
+    margin-top: 10vh;
+    margin-left: 21vh;
+}
+
+.three{
+    height: 17.5vh;
+    width: 26.5vh;
+    margin-left: 0.5vh;
+}
+
+.threem{
+    height: 17.2vh;
+    width: 30.5vh;
+    margin-left: 0.5vh;
+}
+
+.threet{
+    height: 16vh;
+    width: 28vh;
+    margin-left: 5vh;
+}
+
+
+
+
+
+
+
