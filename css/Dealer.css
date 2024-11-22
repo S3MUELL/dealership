@@ -196,10 +196,45 @@ li:active {
   color: rgb(104, 104, 104);
 }
 
+
+/*Buttons for scrolling to desired BMW*/
+
+a{
+  text-decoration: none;
+}
+
+.buttons-for-series{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 11vh;
+  margin-top: 10vh;
+}
+
+.first-button{
+  color: rgb(173, 173, 173) 1px;
+}
+
+.second-button{
+  color: rgb(173, 173, 173) 1px;
+}
+
+.third-button{
+  color: rgb(173, 173, 173) 1px;
+}
+
+.fourth-button{
+  color: rgb(173, 173, 173) 1px;
+}
+
+.fifth-button{
+  color: rgb(173, 173, 173) 1px;
+}
+
 /*1*/
 
 #first-series {
-  margin-top: 20vh;
+  margin-top: 10vh;
   margin-left: 10vh;
   margin-right: 10vh;
   display: flex;
@@ -244,13 +279,13 @@ li:active {
 }
 
 .secondM {
-  margin-top: 11vh;
+  margin-top: 10vh;
   margin-left: 20vh;
 }
 
 .two {
   height: 17.5vh;
-  width: 26.5vh;
+  width: 29.5vh;
   margin-left: 0.5vh;
 }
 
@@ -333,4 +368,47 @@ li:active {
   height: 17.2vh;
   width: 28.5vh;
   margin-left: 0.5vh;
+}
+
+/*5*/
+
+#fifth-series {
+  margin-top: 20vh;
+  margin-left: 10vh;
+  margin-right: 10vh;
+  display: flex;
+  flex-direction: row;
+  border-top: solid rgb(173, 173, 173) 1px;
+}
+
+.fifth {
+  margin-top: 8vh;
+}
+
+.fiveM {
+  margin-top: 10vh;
+  margin-left: 20vh;
+}
+
+.fifthT {
+  margin-top: 7vh;
+  margin-left: 5vh;
+}
+
+.five {
+  height: 17.5vh;
+  width: 29.5vh;
+  margin-left: 0.5vh;
+}
+
+.fivem {
+  height: 18.2vh;
+  width: 31vh;
+  margin-left: 0.5vh;
+}
+
+.fivet {
+  height: 19vh;
+  width: 30.5vh;
+  margin-left: 5vh;
 }
