@@ -12,6 +12,8 @@ body {
   margin: 0;
 }
 
+/*Navbar*/
+
 #header {
   display: flex;
   flex-direction: row;
@@ -86,25 +88,15 @@ body {
   }
 }
 
-#hero-banner {
-  width: 100%;
-  height: 80vh;
-  background-image: url(/img/herobn.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  padding-top: 10rem;
-}
 
 .selector {
   display: flex;
   flex-direction: row;
   list-style-type: none;
 }
-
-li {
+.home,.about,.models,.contact {
   margin-left: 3vh;
-  padding-top: 0.9vh;
+  padding-top: 2vh;
   color: white;
   text-align: center;
   width: 13vh;
@@ -113,17 +105,62 @@ li {
   transition: 0.5s;
 }
 
-li:hover {
+.home:hover {
   background-color: white;
   color: black;
 }
 
-li:active {
+.home:active {
+  opacity: 0.8;
+}
+
+.about:hover {
+  background-color: white;
+  color: black;
+}
+
+.about:active {
+  opacity: 0.8;
+}
+
+.models:hover {
+  background-color: white;
+  color: black;
+}
+
+.models:active {
+  opacity: 0.8;
+}
+
+.contact:hover {
+  background-color: white;
+  color: black;
+}
+
+.contact:active {
   opacity: 0.8;
 }
 
 .contact {
   margin-right: 2vh;
+}
+
+.profile{
+  height: 5.5vh;
+  cursor: pointer;
+  margin-left: 5vh;
+}
+
+/*HomePage*/
+
+#hero-banner {
+  width: 100%;
+  height: 80vh;
+  background-image: url(/img/herobn.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 10rem;
 }
 
 .slogan {
@@ -155,7 +192,7 @@ li:active {
   opacity: 0.8;
 }
 
-/*models*/
+/*Models*/
 
 .title {
   font-size: 3.5vh;
@@ -199,36 +236,106 @@ li:active {
 
 /*Buttons for scrolling to desired BMW*/
 
-a{
-  text-decoration: none;
-}
-
-.buttons-for-series{
+.sb-list{
   display: flex;
   flex-direction: row;
-  align-items: center;
-  margin-left: 11vh;
-  margin-top: 10vh;
+  list-style-type: none;
+  text-decoration: none;
+  margin-top: 6.8vh;
+  text-decoration: none;
+  color: rgb(104, 104, 104);
+  font-size: 3vh;
+  transition: 0.1s;
 }
 
 .first-button{
-  color: rgb(173, 173, 173) 1px;
+  margin-left: 6vh;
+  color: rgb(104, 104, 104);
+  align-items: center;
+  width: 4vh;
+  height: 4vh;
+  padding-left: 2vh;
+  padding-top: 0.8vh;
+  border-radius: 2vh 0.3vh 2vh 0.3vh;
+  transition: 0.1s;
+}
+
+.first-button:hover{
+  color: white;
+  background-color: rgb(1, 102, 177);
+  border-radius: 2vh 0.3vh 2vh 0.3vh;
 }
 
 .second-button{
-  color: rgb(173, 173, 173) 1px;
+  margin-left: 4vh;
+  color: rgb(104, 104, 104);
+  align-items: center;
+  width: 4vh;
+  height: 4vh;
+  padding-left: 2vh;
+  padding-top: 0.8vh;
+  border-radius: 2vh 0.3vh 2vh 0.3vh;
+  transition: 0.1s;
+}
+
+.second-button:hover{
+  color: white;
+  background-color: rgb(1, 102, 177);
+  border-radius: 2vh 0.3vh 2vh 0.3vh;
 }
 
 .third-button{
-  color: rgb(173, 173, 173) 1px;
+  margin-left: 4vh;
+  color: rgb(104, 104, 104);
+  align-items: center;
+  width: 4vh;
+  height: 4vh;
+  padding-left: 2vh;
+  padding-top: 0.8vh;
+  border-radius: 2vh 0.3vh 2vh 0.3vh;
+  transition: 0.1s;
+}
+
+.third-button:hover{
+  color: white;
+  background-color: rgb(1, 102, 177);
+  border-radius: 2vh 0.3vh 2vh 0.3vh;
 }
 
 .fourth-button{
-  color: rgb(173, 173, 173) 1px;
+  margin-left: 4vh;
+  color: rgb(104, 104, 104);
+  align-items: center;
+  width: 4vh;
+  height: 4vh;
+  padding-left: 2vh;
+  padding-top: 0.8vh;
+  border-radius: 2vh 0.3vh 2vh 0.3vh;
+  transition: 0.1s;
+}
+
+.fourth-button:hover{
+  color: white;
+  background-color: rgb(1, 102, 177);
+  border-radius: 2vh 0.3vh 2vh 0.3vh;
 }
 
 .fifth-button{
-  color: rgb(173, 173, 173) 1px;
+  margin-left: 4vh;
+  color: rgb(104, 104, 104);
+  align-items: center;
+  width: 4vh;
+  height: 4vh;
+  padding-left: 2vh;
+  padding-top: 0.8vh;
+  border-radius: 2vh 0.3vh 2vh 0.3vh;
+  transition: 0.1s;
+}
+
+.fifth-button:hover{
+  color: white;
+  background-color: rgb(1, 102, 177);
+  border-radius: 2vh 0.3vh 2vh 0.3vh;
 }
 
 /*1*/
@@ -307,7 +414,7 @@ a{
 }
 
 .third {
-  margin-top: 8vh;
+  margin-top: 9vh;
 }
 
 .threeM {
@@ -317,7 +424,7 @@ a{
 
 .threeT {
   margin-top: 10vh;
-  margin-left: 21vh;
+  margin-left: 18vh;
 }
 
 .three {
@@ -378,6 +485,7 @@ a{
   margin-right: 10vh;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   border-top: solid rgb(173, 173, 173) 1px;
 }
 
@@ -385,14 +493,29 @@ a{
   margin-top: 8vh;
 }
 
-.fiveM {
-  margin-top: 10vh;
+.fifthM {
+  margin-top: 8vh;
   margin-left: 20vh;
 }
 
 .fifthT {
   margin-top: 7vh;
-  margin-left: 5vh;
+  margin-left: 20vh;
+}
+
+.fifthI {
+  margin-top: 7vh;
+  margin-left: 20vh;
+}
+
+.fifthIT {
+  margin-top: 8vh;
+  margin-left: 3vh;
+}
+
+.fifthMT {
+  margin-top: 7.5vh;
+  margin-left: 20vh;
 }
 
 .five {
@@ -411,4 +534,21 @@ a{
   height: 19vh;
   width: 30.5vh;
   margin-left: 5vh;
+}
+
+.fivemt {
+  height: 19vh;
+  width: 34.5vh;
+}
+
+.fivei {
+  height: 19vh;
+  width: 31.5vh;
+  margin-left: 5vh;
+}
+
+.fiveit {
+  height: 19vh;
+  width: 31.5vh;
+  margin-left: 3vh;
 }
