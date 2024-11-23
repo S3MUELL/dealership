@@ -89,13 +89,15 @@ body {
   }
 }
 
-
 .selector {
   display: flex;
   flex-direction: row;
   list-style-type: none;
 }
-.home,.about,.models,.contact {
+.home,
+.about,
+.models,
+.contact {
   margin-left: 3vh;
   padding-top: 2vh;
   color: white;
@@ -146,7 +148,7 @@ body {
   margin-right: 2vh;
 }
 
-.profile{
+.profile {
   height: 5.5vh;
   cursor: pointer;
   margin-left: 5vh;
@@ -236,10 +238,9 @@ body {
   color: black;
 }
 
-
 /*Buttons for scrolling to desired BMW*/
 
-.sb-list{
+.sb-list {
   display: flex;
   flex-direction: row;
   list-style-type: none;
@@ -251,7 +252,7 @@ body {
   transition: 0.1s;
 }
 
-.first-button{
+.first-button {
   margin-left: 6vh;
   color: rgb(104, 104, 104);
   align-items: center;
@@ -263,13 +264,13 @@ body {
   transition: 0.1s;
 }
 
-.first-button:hover{
+.first-button:hover {
   color: white;
   background-color: rgb(1, 102, 177);
   border-radius: 2vh 0.3vh 2vh 0.3vh;
 }
 
-.second-button{
+.second-button {
   margin-left: 4vh;
   color: rgb(104, 104, 104);
   align-items: center;
@@ -281,13 +282,13 @@ body {
   transition: 0.1s;
 }
 
-.second-button:hover{
+.second-button:hover {
   color: white;
   background-color: rgb(1, 102, 177);
   border-radius: 2vh 0.3vh 2vh 0.3vh;
 }
 
-.third-button{
+.third-button {
   margin-left: 4vh;
   color: rgb(104, 104, 104);
   align-items: center;
@@ -299,13 +300,13 @@ body {
   transition: 0.1s;
 }
 
-.third-button:hover{
+.third-button:hover {
   color: white;
   background-color: rgb(1, 102, 177);
   border-radius: 2vh 0.3vh 2vh 0.3vh;
 }
 
-.fourth-button{
+.fourth-button {
   margin-left: 4vh;
   color: rgb(104, 104, 104);
   align-items: center;
@@ -317,13 +318,13 @@ body {
   transition: 0.1s;
 }
 
-.fourth-button:hover{
+.fourth-button:hover {
   color: white;
   background-color: rgb(1, 102, 177);
   border-radius: 2vh 0.3vh 2vh 0.3vh;
 }
 
-.fifth-button{
+.fifth-button {
   margin-left: 4vh;
   color: rgb(104, 104, 104);
   align-items: center;
@@ -335,7 +336,7 @@ body {
   transition: 0.1s;
 }
 
-.fifth-button:hover{
+.fifth-button:hover {
   color: white;
   background-color: rgb(1, 102, 177);
   border-radius: 2vh 0.3vh 2vh 0.3vh;
@@ -344,6 +345,7 @@ body {
 /*1*/
 
 #first-series {
+  scroll-margin-top: 15vh; /*mundeson hapesiren gjate scroll*/
   margin-top: 2vh;
   margin-left: 10vh;
   margin-right: 10vh;
@@ -376,6 +378,7 @@ body {
 /*2*/
 
 #second-series {
+  scroll-margin-top: 15vh; /*mundeson hapesiren gjate scroll*/
   margin-top: 5vh;
   margin-left: 10vh;
   margin-right: 10vh;
@@ -408,6 +411,7 @@ body {
 /*3*/
 
 #third-series {
+  scroll-margin-top: 15vh; /*mundeson hapesiren gjate scroll*/
   margin-top: 5vh;
   margin-left: 10vh;
   margin-right: 10vh;
@@ -451,6 +455,7 @@ body {
 /*4*/
 
 #fourth-series {
+  scroll-margin-top: 15vh; /*mundeson hapesiren gjate scroll*/
   margin-top: 5vh;
   margin-left: 10vh;
   margin-right: 10vh;
@@ -483,6 +488,7 @@ body {
 /*5*/
 
 #fifth-series {
+  scroll-margin-top: 15vh; /*mundeson hapesiren gjate scroll*/
   margin-top: 5vh;
   margin-left: 10vh;
   margin-right: 10vh;
