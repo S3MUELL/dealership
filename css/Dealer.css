@@ -414,6 +414,21 @@ body {
   border-radius: 2vh 0.3vh 2vh 0.3vh;
 }
 
+.scroll-top{
+  position: sticky;
+  z-index: 999;
+  font-size: 5vh;
+  text-decoration: none;
+  color: black;
+  margin-left: 190vh;
+  margin-top: 50vh;
+  height: 10vh;
+  width: 6vh;
+  border-color: none;
+  border-radius: 10vh;
+  box-shadow: 0.1vh 0.1vh 0.1vh 0.1vh;
+}
+
 /*1*/
 
 #first-series {
