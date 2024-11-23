@@ -202,3 +202,135 @@ body {
 .read-more:active {
   opacity: 0.8;
 }
+
+.explorepage{
+  font-size: 6vh;
+  color: rgb(104, 104, 104);
+  margin-left: 80vh;
+  cursor: default;
+  transition: 0.1s;
+}
+
+.explorepage:hover{
+  font-size: 6vh;
+  color: rgb(1, 102, 177);
+  margin-left: 80vh;
+}
+
+/*first-ad*/
+
+#first-banner{
+  width: 100%;
+  height: 50vh;
+  background-image: url(/img/x5ad.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 8vh;
+  z-index: 999;
+}
+
+.news {
+  color: white;
+  display: grid;
+  width: 130vh;
+  line-height: 0.1vh;
+  position: relative;
+  font-size: 4vh;
+  padding-top: 10vh;
+  margin-left: 7vh;
+}
+
+.news-price {
+  color: white;
+  display: grid;
+  width: 80vh;
+  line-height: 0.1vh;
+  position: relative;
+  font-size: 2vh;
+  margin-left: 12vh;
+}
+
+
+.explore {
+  position: absolute;
+  width: 250px;
+  height: 50px;
+  border-radius: 4vh;
+  margin-left: 12vh;
+  margin-top: 10vh;
+  font-size: 2vh;
+  border: 0.4vh solid rgb(1, 102, 177);
+  cursor: pointer;
+  transition: 0.2s;
+  color: white;
+  background-color: rgb(1, 102, 177);
+}
+
+.explore:hover {
+  background-color: white;
+  color: rgb(1, 102, 177);
+}
+
+.explore:active {
+  opacity: 0.8;
+}
+
+/*second-ad*/
+
+#second-banner{
+  width: 100%;
+  height: 50vh;
+  background-image: url(/img/m2ad.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 8vh;
+  z-index: 999;
+}
+
+.news-one {
+  color: white;
+  display: grid;
+  width: 130vh;
+  line-height: 0.1vh;
+  position: relative;
+  font-size: 4vh;
+  padding-top: 10vh;
+  margin-left: 14.5vh;
+}
+
+.news-price-one {
+  color: white;
+  display: grid;
+  width: 80vh;
+  line-height: 0.1vh;
+  position: relative;
+  font-size: 2vh;
+  margin-left: 12vh;
+}
+
+
+.explore-one {
+  position: absolute;
+  width: 250px;
+  height: 50px;
+  border-radius: 4vh;
+  margin-left: 13.5vh;
+  margin-top: 10vh;
+  font-size: 2vh;
+  border: 0.4vh solid rgb(1, 102, 177);
+  cursor: pointer;
+  transition: 0.2s;
+  color: white;
+  background-color: rgb(1, 102, 177);
+}
+
+.explore-one:hover {
+  background-color: white;
+  color: rgb(1, 102, 177);
+}
+
+.explore-one:active {
+  opacity: 0.8;
+}
