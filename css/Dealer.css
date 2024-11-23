@@ -342,6 +342,78 @@ body {
   border-radius: 2vh 0.3vh 2vh 0.3vh;
 }
 
+.seventh-button {
+  margin-left: 4vh;
+  color: rgb(104, 104, 104);
+  align-items: center;
+  width: 4vh;
+  height: 4vh;
+  padding-left: 2vh;
+  padding-top: 0.8vh;
+  border-radius: 2vh 0.3vh 2vh 0.3vh;
+  transition: 0.1s;
+}
+
+.seventh-button:hover {
+  color: white;
+  background-color: rgb(1, 102, 177);
+  border-radius: 2vh 0.3vh 2vh 0.3vh;
+}
+
+.eighth-button {
+  margin-left: 4vh;
+  color: rgb(104, 104, 104);
+  align-items: center;
+  width: 4vh;
+  height: 4vh;
+  padding-left: 2vh;
+  padding-top: 0.8vh;
+  border-radius: 2vh 0.3vh 2vh 0.3vh;
+  transition: 0.1s;
+}
+
+.eighth-button:hover {
+  color: white;
+  background-color: rgb(1, 102, 177);
+  border-radius: 2vh 0.3vh 2vh 0.3vh;
+}
+
+.xth-button {
+  margin-left: 4vh;
+  color: rgb(104, 104, 104);
+  align-items: center;
+  width: 4vh;
+  height: 4vh;
+  padding-left: 2vh;
+  padding-top: 0.8vh;
+  border-radius: 2vh 0.3vh 2vh 0.3vh;
+  transition: 0.1s;
+}
+
+.xth-button:hover {
+  color: white;
+  background-color: rgb(1, 102, 177);
+  border-radius: 2vh 0.3vh 2vh 0.3vh;
+}
+
+.ixth-button {
+  margin-left: 4vh;
+  color: rgb(104, 104, 104);
+  align-items: center;
+  width: 4vh;
+  height: 4vh;
+  padding-left: 1vh;
+  padding-top: 0.8vh;
+  border-radius: 2vh 0.3vh 2vh 0.3vh;
+  transition: 0.1s;
+}
+
+.ixth-button:hover {
+  color: white;
+  background-color: rgb(1, 102, 177);
+  border-radius: 2vh 0.3vh 2vh 0.3vh;
+}
+
 /*1*/
 
 #first-series {
@@ -364,14 +436,14 @@ body {
 }
 
 .one {
-  height: 17.5vh;
-  width: 28.5vh;
+  height: 21vh;
+  width: 34vh;
   margin-left: 0.5vh;
 }
 
 .onem {
-  height: 16.8vh;
-  width: 29vh;
+  height: 21vh;
+  width: 37vh;
   margin-left: 0.5vh;
 }
 
@@ -397,14 +469,14 @@ body {
 }
 
 .two {
-  height: 17.5vh;
-  width: 29.5vh;
+  height: 21vh;
+  width: 34vh;
   margin-left: 0.5vh;
 }
 
 .twom {
-  height: 16.8vh;
-  width: 28vh;
+  height: 21vh;
+  width: 34vh;
   margin-left: 0.5vh;
 }
 
@@ -425,30 +497,30 @@ body {
 }
 
 .threeM {
-  margin-top: 9vh;
+  margin-top: 11vh;
   margin-left: 20vh;
 }
 
 .threeT {
-  margin-top: 10vh;
+  margin-top: 11vh;
   margin-left: 18vh;
 }
 
 .three {
-  height: 17.5vh;
-  width: 27.5vh;
+  height: 23vh;
+  width: 36vh;
   margin-left: 0.5vh;
 }
 
 .threem {
-  height: 17.2vh;
-  width: 30.5vh;
+  height: 21vh;
+  width: 38vh;
   margin-left: 0.5vh;
 }
 
 .threet {
-  height: 16vh;
-  width: 28vh;
+  height: 21vh;
+  width: 37vh;
   margin-left: 5vh;
 }
 
@@ -474,14 +546,14 @@ body {
 }
 
 .four {
-  height: 17.5vh;
-  width: 28.5vh;
+  height: 21vh;
+  width: 35vh;
   margin-left: 0.5vh;
 }
 
 .fourm {
-  height: 17.2vh;
-  width: 28.5vh;
+  height: 21vh;
+  width: 35vh;
   margin-left: 0.5vh;
 }
 
@@ -560,4 +632,324 @@ body {
   height: 19vh;
   width: 31.5vh;
   margin-left: 3vh;
+}
+
+/*7*/
+
+#seventh-series {
+  scroll-margin-top: 15vh; /*mundeson hapesiren gjate scroll*/
+  margin-top: 5vh;
+  margin-left: 10vh;
+  margin-right: 10vh;
+  display: flex;
+  flex-direction: row;
+  border-top: solid rgb(173, 173, 173) 1px;
+}
+
+.seventh {
+  margin-top: 7vh;
+}
+
+.seventhI {
+  margin-top: 9vh;
+  margin-left: 20vh;
+}
+
+.seven {
+  height: 19.5vh;
+  width: 32.5vh;
+  margin-left: 0.5vh;
+}
+
+.seveni {
+  height: 17.2vh;
+  width: 32.5vh;
+  margin-left: 0.5vh;
+}
+
+/*8*/
+
+#eighth-series {
+  scroll-margin-top: 15vh; /*mundeson hapesiren gjate scroll*/
+  margin-top: 5vh;
+  margin-left: 10vh;
+  margin-right: 10vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-top: solid rgb(173, 173, 173) 1px;
+}
+
+.eighth {
+  margin-top: 8vh;
+}
+
+.eighthC {
+  margin-top: 8vh;
+  margin-left: 20vh;
+}
+
+.eighthG {
+  margin-top: 9.5vh;
+  margin-left: 20vh;
+}
+
+.eighthM {
+  margin-top: 7vh;
+  margin-left: 4vh;
+}
+
+.eighthMC {
+  margin-top: 7vh;
+  margin-left: 20vh;
+}
+
+.eighthMG {
+  margin-top: 7.5vh;
+  margin-left: 20vh;
+}
+
+.eight {
+  height: 18.5vh;
+  width: 36vh;
+  margin-left: 0.5vh;
+}
+
+.eightc {
+  height: 20vh;
+  width: 33.5vh;
+  margin-left: 0.5vh;
+}
+
+.eightg {
+  height: 19vh;
+  width: 32vh;
+  margin-left: 2vh;
+}
+
+.eightm {
+  height: 20vh;
+  width: 33vh;
+}
+
+.eightmc {
+  height: 19vh;
+  width: 31.5vh;
+  margin-left: 3vh;
+}
+
+.eightmg {
+  height: 19vh;
+  width: 34vh;
+  margin-left: 3vh;
+}
+
+/*X*/
+
+#x-series {
+  scroll-margin-top: 15vh; /*mundeson hapesiren gjate scroll*/
+  margin-top: 5vh;
+  margin-left: 10vh;
+  margin-right: 10vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-top: solid rgb(173, 173, 173) 1px;
+}
+
+.xmth {
+  margin-top: 8vh;
+}
+
+.xm {
+  height: 23.5vh;
+  width: 40vh;
+}
+
+.x-seventh {
+  margin-top: 11.8vh;
+  margin-left: 15vh;
+}
+
+.xseven {
+  height: 20vh;
+  width: 34.5vh;
+  margin-left: 0.5vh;
+}
+
+.x-sixth {
+  margin-top: 11vh;
+  margin-left: 20vh;
+}
+
+.xsix {
+  height: 21vh;
+  width: 35vh;
+  margin-left: 0.5vh;
+}
+
+.x-sixthM {
+  margin-top: 8vh;
+  margin-left: 3vh;
+}
+
+.xsixm {
+  height: 21.5vh;
+  width: 36vh;
+  margin-left: 0.5vh;
+}
+
+.x-fifth {
+  margin-top: 8vh;
+  margin-left: 18vh;
+}
+
+.xfive {
+  height: 21vh;
+  width: 36vh;
+  margin-left: 0.5vh;
+}
+
+.x-fifthM {
+  margin-top: 8vh;
+  margin-left: 20vh;
+}
+
+.xfivem {
+  height: 21vh;
+  width: 36vh;
+  margin-left: 0.5vh;
+}
+
+.x-fourth {
+  margin-top: 8vh;
+  margin-left: 2vh;
+}
+
+.xfour {
+  height: 21vh;
+  width: 34.5vh;
+  margin-left: 0.5vh;
+}
+
+.x-fourthM {
+  margin-top: 8vh;
+  margin-left: 20vh;
+}
+
+.xfourm {
+  height: 21vh;
+  width: 34.5vh;
+  margin-left: 0.5vh;
+}
+
+.x-third {
+  margin-top: 8vh;
+  margin-left: 22vh;
+}
+
+.xthree {
+  height: 21vh;
+  width: 36vh;
+  margin-left: 0.5vh;
+}
+
+.x-second {
+  margin-top: 8vh;
+  margin-left: 2vh;
+}
+
+.xtwo {
+  height: 21vh;
+  width: 36vh;
+  margin-left: 0.5vh;
+}
+
+.x-secondM {
+  margin-top: 8vh;
+  margin-left: 17.5vh;
+}
+
+.xtwom {
+  height: 21vh;
+  width: 36vh;
+  margin-left: 0.5vh;
+}
+
+.x-first {
+  margin-top: 8vh;
+  margin-left: 20vh;
+}
+
+.xone {
+  height: 21vh;
+  width: 36vh;
+  margin-left: 0.5vh;
+}
+
+.x-firstM {
+  margin-top: 8vh;
+  margin-left: 2vh;
+}
+
+.xonem {
+  height: 21vh;
+  width: 36vh;
+  margin-left: 0.5vh;
+}
+
+/*iX*/
+
+#ix-series {
+  scroll-margin-top: 15vh; /*mundeson hapesiren gjate scroll*/
+  margin-top: 5vh;
+  margin-left: 10vh;
+  margin-right: 10vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-top: solid rgb(173, 173, 173) 1px;
+}
+
+.ixth {
+  margin-top: 8vh;
+}
+
+.ix {
+  height: 21vh;
+  width: 36vh;
+  margin-left: 0.5vh;
+}
+
+.x-thirdI {
+  margin-top: 8vh;
+  margin-left: 17vh;
+}
+
+.xthreei {
+  height: 21vh;
+  width: 36vh;
+  margin-left: 0.5vh;
+}
+
+.x-secondI {
+  margin-top: 8vh;
+  margin-left: 20vh;
+}
+
+.xtwoi {
+  height: 21vh;
+  width: 36vh;
+  margin-left: 0.5vh;
+}
+
+.x-firstI {
+  margin-top: 8vh;
+  margin-left: 2vh;
+}
+
+.xonei {
+  height: 21vh;
+  width: 39vh;
+  margin-left: 0.5vh;
 }
