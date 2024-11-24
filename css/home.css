@@ -19,13 +19,16 @@ body {
   flex-direction: row;
   align-items: center;
   height: 15vh;
-  width: 100%;
+  width: 90%;
   z-index: 999;
   top: 0;
   left: 0;
+  margin-left: 6vh;
   background-color: none;
-  position: sticky;
-  background-color: black;
+  font-size: 2vh;
+  position: absolute;
+  background-color: transparent;
+  border-bottom: 0.1vh solid white;
 }
 
 .logo {
@@ -99,10 +102,10 @@ body {
 .models,
 .contact {
   margin-left: 3vh;
-  padding-top: 2vh;
+  padding-top: 1.5vh;
   color: white;
   text-align: center;
-  width: 13vh;
+  width: 14vh;
   height: 4vh;
   border-radius: 3vh;
   transition: 0.5s;
@@ -151,15 +154,16 @@ body {
 .profile {
   height: 4vh;
   cursor: pointer;
-  margin-top: 0.5vh;
-  margin-left: 10vh;
+  margin-top: 0.8vh;
+  margin-left: 7vh;
 }
 
 /*HomePage*/
 
 #hero-banner {
   width: 100%;
-  height: 68.1vh;
+  height: 120vh;
+  margin-top: -9vh;
   background-image: url(/img/bn.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -175,8 +179,8 @@ body {
   line-height: 10vh;
   position: relative;
   font-size: 4vh;
-  margin-top: 34vh;
-  margin-left: 7vh;
+  margin-top: 57vh;
+  margin-left: 7vh; 
 }
 
 .read-more {
