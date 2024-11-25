@@ -1,0 +1,156 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/*Navbar*/
+
+#header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 15vh;
+    width: 100%;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    background-color: none;
+    position: sticky;
+    background-color: black;
+}
+
+.logo {
+    width: 50%;
+}
+
+.logo img {
+    width: 12%;
+    margin-left: 3vh;
+}
+
+.logo-animation {
+    content: url(/img/logo.png);
+    transition: 1s;
+}
+
+.logo-animation:hover {
+    animation: switch 0.5s forwards;
+}
+
+@keyframes switch {
+10% {
+    content: url(/img/logo.png);
+    opacity: 0.7;
+}
+20% {
+    content: url(/img/logo.png);
+    opacity: 0.5;
+}
+30% {
+    content: url(/img/logo.png);
+    opacity: 0.3;
+}
+40% {
+    content: url(/img/logo.png);
+    opacity: 0.15;
+}
+50% {
+    content: url(/img/logo.png);
+    opacity: 0;
+}
+60% {
+    content: url(/img/m.png);
+    opacity: 0.15;
+}
+70% {
+    content: url(/img/m.png);
+    opacity: 0.3;
+}
+80% {
+    content: url(/img/m.png);
+    opacity: 0.5;
+}
+90% {
+    content: url(/img/m.png);
+    opacity: 0.8;
+}
+100% {
+    content: url(/img/m.png);
+    opacity: 1;
+}
+}
+
+.selector {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.home,
+.about,
+.models,
+.contact {
+    margin-left: 3vh;
+    padding-top: 2vh;
+    color: white;
+    text-align: center;
+    width: 13vh;
+    height: 4vh;
+    border-radius: 3vh;
+    transition: 0.5s;
+}
+
+.home:hover {
+    background-color: white;
+    color: black;
+}
+
+.home:active {
+    opacity: 0.8;
+}
+
+.about:hover {
+    background-color: white;
+    color: black;
+}
+
+.about:active {
+    opacity: 0.8;
+}
+
+.models:hover {
+    background-color: white;
+    color: black;
+}
+
+.models:active {
+    opacity: 0.8;
+}
+
+.contact:hover {
+    background-color: white;
+    color: black;
+}
+
+.contact:active {
+    opacity: 0.8;
+}
+
+.contact {
+    margin-right: 2vh;
+}
+
+.profile {
+    height: 4vh;
+    cursor: pointer;
+    margin-top: 0.5vh;
+    margin-left: 10vh;
+}
