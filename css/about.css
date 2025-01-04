@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    overflow: hidden;
 }
 
 * {
@@ -127,8 +128,8 @@ body {
 }
 
 .models:hover {
-    background-color: white;
-    color: black;
+background-color: white;
+color: black;
 }
 
 .models:active {
@@ -153,4 +154,73 @@ body {
     cursor: pointer;
     margin-top: 0.5vh;
     margin-left: 10vh;
-}   
+}
+
+/*About*/
+
+#about-page{
+    width: 100%;
+    height: 68.1vh;
+    background-image: url(/img/dab13adb0b6f7118ddffadbf0390.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 10rem;
+    z-index: 999;
+}
+
+.about-place{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60vh;
+    height: 85vh;
+    margin-top: -17vh;
+    background-color: white;
+    box-shadow: rgb(82, 82, 82) 2vh 0vh 3vh;
+}
+
+.title{
+    margin-top: 13vh;
+    font-size: 4vh;
+}
+
+#text{
+    width: 30vh;
+    height: 4vh;
+    border-radius: 0.5vh;
+    border: solid 0.2vh grey;
+    padding-left: 2vh;
+    font-size: 1.5vh;
+}
+
+.find{
+    margin-top: 4vh;
+    margin-bottom: 5vh;
+    font-size: 2.5vh;
+    color: rgb(90, 90, 90);
+    transition: 0.15s;
+    cursor: pointer;
+}
+
+.find:hover{
+    color: rgb(1, 102, 177);
+}
+
+.find1{
+    margin-top: -2vh;
+    margin-bottom: 5vh;
+    font-size: 2.5vh;
+    color: rgb(90, 90, 90);
+    transition: 0.15s;
+    cursor: pointer;
+}
+
+.find1:hover{
+    color: rgb(1, 102, 177);
+}
+
+.bmw{
+    margin-top: 5vh;
+    width: 15vh;
+}
