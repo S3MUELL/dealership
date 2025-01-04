@@ -1,0 +1,236 @@
+html {
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+
+* {
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/*Navbar*/
+
+#header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 15vh;
+    width: 100%;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    background-color: none;
+    position: sticky;
+    background-color: black;
+}
+
+.logo {
+    width: 50%;
+}
+
+.logo img {
+    width: 12%;
+    margin-left: 3vh;
+}
+
+.logo-animation {
+    content: url(/img/logo.png);
+    transition: 1s;
+}
+
+.logo-animation:hover {
+    animation: switch 0.5s forwards;
+}
+
+@keyframes switch {
+10% {
+    content: url(/img/logo.png);
+    opacity: 0.7;
+}
+20% {
+    content: url(/img/logo.png);
+    opacity: 0.5;
+}
+30% {
+    content: url(/img/logo.png);
+    opacity: 0.3;
+}
+40% {
+    content: url(/img/logo.png);
+    opacity: 0.15;
+}
+50% {
+    content: url(/img/logo.png);
+    opacity: 0;
+}
+60% {
+    content: url(/img/m.png);
+    opacity: 0.15;
+}
+70% {
+    content: url(/img/m.png);
+    opacity: 0.3;
+}
+80% {
+    content: url(/img/m.png);
+    opacity: 0.5;
+}
+90% {
+    content: url(/img/m.png);
+    opacity: 0.8;
+}
+100% {
+    content: url(/img/m.png);
+    opacity: 1;
+}
+}
+
+.selector {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.home,
+.about,
+.models,
+.contact {
+    margin-left: 3vh;
+    padding-top: 2vh;
+    color: white;
+    text-align: center;
+    width: 13vh;
+    height: 4vh;
+    border-radius: 3vh;
+    transition: 0.5s;
+}
+
+.home:hover {
+    background-color: white;
+    color: black;
+}
+
+.home:active {
+    opacity: 0.8;
+}
+
+.about:hover {
+    background-color: white;
+    color: black;
+}
+
+.about:active {
+    opacity: 0.8;
+}
+
+.models:hover {
+background-color: white;
+color: black;
+}
+
+.models:active {
+    opacity: 0.8;
+}
+
+.contact:hover {
+    background-color: white;
+    color: black;
+}
+
+.contact:active {
+    opacity: 0.8;
+}
+
+.contact {
+    margin-right: 2vh;
+}
+
+.profile {
+    height: 4vh;
+    cursor: pointer;
+    margin-top: 0.5vh;
+    margin-left: 10vh;
+}
+
+/*Contact*/
+
+#contact-page{
+    width: 100%;
+    height: 68.1vh;
+    background-image: url(/img/contact.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 10rem;
+    z-index: 999;
+}
+
+.contact-place{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60vh;
+    height: 85vh;
+    margin-top: -17vh;
+    background-color: white;
+    box-shadow: rgb(82, 82, 82) 2vh 0vh 3vh;
+}
+
+.title{
+    margin-top: 13vh;
+    font-size: 4vh;
+}
+
+.tel-number{
+    margin-top: 6vh;
+    font-size: 2.5vh;
+    color: rgb(90, 90, 90);
+}
+
+.tel-number:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.fax-number{
+    font-size: 2.5vh;
+    color: rgb(90, 90, 90);
+}
+
+.fax-number:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.email{
+    font-size: 2.5vh;
+    color: rgb(90, 90, 90);
+}
+
+.email:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.bmw{
+    margin-left: -18vh;
+    margin-top: 4vh;
+    width: 6vh;
+}
+
+.m{
+    margin-top: -4vh;
+    width: 6vh;
+    height: 2.5vh;
+}
+
+.i{
+    margin-left: 18vh;
+    margin-top: -3vh;
+    width: 6vh;
+}
+
