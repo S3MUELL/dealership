@@ -356,11 +356,22 @@ body {
   color: rgb(73, 73, 73);
 }
 
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
 .rights1{
   margin-left: 30vh;
   margin-top: 9vh;
   font-size: 2.5vh;
   color: rgb(73, 73, 73);
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.rights1:hover{
+  color: rgb(1, 102, 177);
 }
 
 .rights2{
@@ -368,6 +379,12 @@ body {
   margin-top: 3vh;
   font-size: 2.5vh;
   color: rgb(73, 73, 73);
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.rights2:hover{
+  color: rgb(1, 102, 177);
 }
 
 .rights3{
@@ -375,6 +392,12 @@ body {
   margin-top: 3vh;
   font-size: 2.5vh;
   color: rgb(73, 73, 73);
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.rights3:hover{
+  color: rgb(1, 102, 177);
 }
 
 .rights4{
@@ -382,26 +405,32 @@ body {
   margin-top: 3vh;
   font-size: 2.5vh;
   color: rgb(73, 73, 73);
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.rights4:hover{
+  color: rgb(1, 102, 177);
 }
 
 .insta{
   width: 9vh;
   margin-left: 130vh;
-  margin-top: -20vh;
+  margin-top: -23vh;
   position: absolute;
 }
 
 .fb{
-  width: 5.8vh;
-  margin-left: 131.7vh;
-  margin-top: -14vh;
+  width: 5.5vh;
+  margin-left: 131.9vh;
+  margin-top: -16vh;
   position: absolute;
 }
 
 .yt{
-  width: 5.8vh;
-  height: 4.5vh;
-  margin-left: 131.7vh;
-  margin-top: -7vh;
+  width: 6.2vh;
+  height: 5vh;
+  margin-left: 131.6vh;
+  margin-top: -8.7vh;
   position: absolute;
 }
