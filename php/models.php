@@ -18,7 +18,7 @@
           <a href="about.php"><li class="about">About</li></a>
           <a href="models.php"><li class="models">Models</li></a>
           <a href="contact.php"><li class="contact">Contact Us</li></a>
-          <a href="sign.php"><li class="sign"><img class="profile" src="/../img/pfp.png" alt="" /></li></a>
+          <a href="sign.php"><li class="sign"><img class="profile" src="./../img/pfp.png" alt="" /></li></a>
         </ul>
       </div>
     </section>
@@ -320,13 +320,13 @@
         </section>
         <section id="footer">
           <h1 class="title-for-links">Related</h1>
-          <p class="rights1">BMW.com</p>
-          <p class="rights2">BMW-M.com</p>
-          <p class="rights3">BMW Group</p>
-          <p class="rights4">BMW ConnectedDrive</p>
-          <img class="insta" src="/img/Instagram-Emblem.png" alt="">
-          <img class="fb" src="/img/7ccb40e2fa23d39346cc9dc8691d68b3-removebg-preview.png" alt="">
-          <img class="yt" src="/img/Black-youtube-icon-design-on-transparent-background-PNG-removebg-preview.png" alt="">
+          <p class="rights1"><a href="https://www.bmw.com/en/index.html">BMW.com</a></p>
+          <p class="rights2"><a href="https://www.bmw-m.com/en/index.html">BMW-M.com</a></p>
+          <p class="rights3"><a href="https://www.bmwgroup.com/en.html">BMW Group</a></p>
+          <p class="rights4"><a href="sign.html">BMW ConnectedDrive</a></p>
+          <img class="insta" src="./../img/Instagram-Emblem.png" alt="">
+          <img class="fb" src="./../img/7ccb40e2fa23d39346cc9dc8691d68b3-removebg-preview.png" alt="">
+          <img class="yt" src="./../img/Black-youtube-icon-design-on-transparent-background-PNG-removebg-preview.png" alt="">
       </section>
     </body>
 </html>
