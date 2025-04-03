@@ -39,22 +39,24 @@
       </ul>
     </div>
     <a href="#descbmw" class="scroll-top">↑</a>
-
+<?php include "db_config.php";?>
     <!--1 Series-->
     <section id="first-series">
       <p class="title-number">1</p>
+      <?php
+      $result = $conn->query("SELECT * FROM cars_info WHERE car_class=1");
+      while ($row = $result->fetch_assoc()){
+      
+    
+      ?>
+      
       <div class="first">
-        <img class="one" src="/img/1.jpg" alt="" />
-        <h1 class="title">BMW 1 Series</h1>
-        <h2 class="desc">Diesel/Petrol</h2>
-        <h3 class="price">From EUR 37'800</h3>
+        <img class="one" src="../img/<?php echo $row["Photo"];?>">
+        <h1 class="title"><?php echo $row["Name"];?></h1>
+        <h2 class="desc"><?php echo $row["Fuel"];?></h2>
+        <h3 class="price"><?php echo $row["Price"];?></h3>
       </div>
-      <div class="firstM">
-        <img class="onem" src="/img/1m.jpg" alt="" />
-        <h1 class="title">BMW 1 Series M</h1>
-        <h2 class="desc">Petrol</h2>
-        <h3 class="price">From EUR 60'500</h3>
-      </div>
+      <?php } ?>
     </section>
     <!--2 Series-->
     <section id="second-series">
