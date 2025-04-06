@@ -29,7 +29,10 @@ if (isset($_GET['id'])) {
         </ul>
         <p class="price">Monthly Payment: 732.50EUR/Mt.</p>
         <p class="final-price"><?php echo $car['Price'];?></p>
-        <button class="order">Order Now</button>
+        <form action="checkout.php" method="POST">
+  <input type="hidden" name="car_id" value="<?php echo $car['id']; ?>">
+  <button type="submit" class="order">Buy Now</button>
+</form>
     </div>
     <?php }}
 ?>
