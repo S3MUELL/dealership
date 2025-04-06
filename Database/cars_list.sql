@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 25, 2025 at 04:12 PM
+-- Generation Time: Apr 06, 2025 at 01:56 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -54,32 +54,32 @@ INSERT INTO `cars_info` (`id`, `Name`, `Fuel`, `Price`, `Photo`, `car_class`) VA
 (11, 'BMW 5 Series Touring', 'Diesel/Petrol/Plug-in Hybrid', 'From EUR 70 000', '5t.jpg', '5'),
 (12, 'BMW i5', 'Electric', 'From EUR 76 700', '5i.jpg', '5'),
 (13, 'BMW i5 Touring', 'Electric', 'From EUR 80 000', '5it.jpg', '5'),
-(14, 'BMW M5', 'Plug-in Hybrid', 'From EUR 150 800', '5m.jpg', '5'),
+(14, 'BMW M5', 'Plug-in Hybrid', 'From EUR 150 800', '5m.png', '5'),
 (15, 'BMW M5 Touring', 'Plug-in Hybrid', 'From EUR 157 800', 'm5t.jpg', '5'),
 (16, 'BMW 7 Series', 'Diesel/Plug-in Hybrid', 'From EUR 143 200', '7.png', '7'),
 (17, 'BMW i7', 'Electric', 'From EUR 140 500', '7i.png', '7'),
 (18, 'BMW 8 Coupé', 'Diesel/Petrol', 'From EUR 130 800', '8.png', '8'),
 (19, 'BMW 8 Cabriolet', 'Diesel/Petrol', 'From EUR 143 000', '8c.png', '8'),
 (20, 'BMW 8 Series Gran Coupé', 'Diesel/Petrol', 'From EUR 132 700', '8g.png', '8'),
-(21, 'BMW M8 Coupé', 'Petrol', 'From EUR 168 500', '8m.png', '8'),
-(22, 'BMW M8 Cabriolet', 'Petrol', 'From EUR 178 600', '8mc.png', '8'),
-(23, 'BMW M8 Gran Coupé', 'Petrol', 'From EUR 164 700', '8mg.png', '8'),
+(21, 'BMW M8 Coupé', 'Petrol', 'From EUR 168 500', '8m.jpg', '8'),
+(22, 'BMW M8 Cabriolet', 'Petrol', 'From EUR 178 600', '8mc.jpg', '8'),
+(23, 'BMW M8 Gran Coupé', 'Petrol', 'From EUR 164 700', '8mg.jpg', '8'),
 (24, 'BMW XM', 'Plug-in Hybrid', 'From EUR 135 800', 'xm.png', 'X'),
-(25, 'BMW X7', 'Diesel/Petrol', 'From EUR 125 000', '7x.png', 'X'),
-(26, 'BMW X6', 'Diesel/Petrol', 'From EUR 102 200', '6x.png', 'X'),
-(27, 'BMW X6M', 'Petrol', 'From EUR 140 700', '6xm.png', 'X'),
-(28, 'BMW X5', 'Diesel/Petrol', 'From EUR 100 100', '5x.png', 'X'),
+(25, 'BMW X7', 'Diesel/Petrol', 'From EUR 125 000', '7x.jpg', 'X'),
+(26, 'BMW X6', 'Diesel/Petrol', 'From EUR 102 200', '6x.jpg', 'X'),
+(27, 'BMW X6M', 'Petrol', 'From EUR 140 700', '6xm.jpg', 'X'),
+(28, 'BMW X5', 'Diesel/Petrol', 'From EUR 100 100', '5x.jpg', 'X'),
 (29, 'BMW X5M', 'Petrol', 'From EUR 138 600', '5xm.png', 'X'),
 (30, 'BMW X4', 'Diesel/Petrol', 'From EUR 67 530', '4x.png', 'X'),
 (31, 'BMW X4M', 'Petrol', 'From EUR 95 700', '4xm.png', 'X'),
-(32, 'BMW X3', 'Diesel/Petrol', 'From EUR 65 000', '3x.png', 'X'),
+(32, 'BMW X3', 'Diesel/Petrol', 'From EUR 65 000', '3x.jpg', 'X'),
 (33, 'BMW X2', 'Diesel/Petrol', 'From EUR 53 200', '2x.png', 'X'),
-(34, 'BMW X2 M35i xDrive', 'Petrol', 'From EUR 74 200', '2xm.png', 'X'),
-(35, 'BMW X1', 'Diesel/Petrol', 'From EUR 48 300', '1x.png', 'X'),
-(36, 'BMW X1 M35i xDrive', 'Petrol', 'From EUR 72 450', '1xm.png', 'X'),
+(34, 'BMW X2 M35i xDrive', 'Petrol', 'From EUR 74 200', '2xm.jpg', 'X'),
+(35, 'BMW X1', 'Diesel/Petrol', 'From EUR 48 300', '1x.jpg', 'X'),
+(36, 'BMW X1 M35i xDrive', 'Petrol', 'From EUR 72 450', '1xm.jpg', 'X'),
 (37, 'BMW iX', 'Electric', 'From EUR 94 500', 'iX.png', 'iX'),
 (38, 'BMW iX3', 'Electric', 'From EUR 75 600', '3xi.jpg', 'iX'),
-(39, 'BMW iX2', 'Electric', 'From EUR 53 200', '2xi.jpg', 'iX'),
+(39, 'BMW iX2', 'Electric', 'From EUR 53 200', '2xi.png', 'iX'),
 (40, 'BMW iX1', 'Electric', 'From EUR 50 400', '1xi.jpg', 'iX');
 
 --
