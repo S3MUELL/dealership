@@ -52,7 +52,8 @@
       
       <div class="first">
         <img class="one" src="../img/<?php echo $row["Photo"];?>">
-        <h1 class="title"><?php echo $row["Name"];?></h1>
+        <a href="singleCar.php?id=<?php echo $row['id']; ?>" class="car-link">
+        <h1 class="title"><?php echo $row["Name"];?></h1></a>
         <h2 class="desc"><?php echo $row["Fuel"];?></h2>
         <h3 class="price"><?php echo $row["Price"];?></h3>
       </div>
@@ -70,7 +71,8 @@
       ?>
       <div class="second">
         <img class="two" src="../img/<?php echo $row["Photo"];?>">
-        <h1 class="title"><?php echo $row["Name"];?></h1>
+        <a href="singleCar.php?id=<?php echo $row['id']; ?>" class="car-link">
+        <h1 class="title"><?php echo $row["Name"];?></h1></a>
         <h2 class="desc"><?php echo $row["Fuel"];?></h2>
         <h3 class="price"><?php echo $row["Price"];?></h3>
       </div>
@@ -88,7 +90,8 @@
       ?>
       <div class="third">
         <img class="three" src="../img/<?php echo $row["Photo"];?>">
-        <h1 class="title"><?php echo $row["Name"];?></h1>
+        <a href="singleCar.php?id=<?php echo $row['id']; ?>" class="car-link">
+        <h1 class="title"><?php echo $row["Name"];?></h1></a>
         <h2 class="desc"><?php echo $row["Fuel"];?></h2>
         <h3 class="price"><?php echo $row["Price"];?></h3>
       </div>
@@ -106,7 +109,8 @@
       ?>
       <div class="fourth">
         <img class="four" src="../img/<?php echo $row["Photo"];?>">
-        <h1 class="title"><?php echo $row["Name"];?></h1>
+        <a href="singleCar.php?id=<?php echo $row['id']; ?>" class="car-link">
+        <h1 class="title"><?php echo $row["Name"];?></h1></a>
         <h2 class="desc"><?php echo $row["Fuel"];?></h2>
         <h3 class="price"><?php echo $row["Price"];?></h3>
       </div>
@@ -124,7 +128,8 @@
       ?>
       <div class="fifth">
         <img class="five" src="../img/<?php echo $row["Photo"];?>">
-        <h1 class="title"><?php echo $row["Name"];?></h1>
+        <a href="singleCar.php?id=<?php echo $row['id']; ?>" class="car-link">
+        <h1 class="title"><?php echo $row["Name"];?></h1></a>
         <h2 class="desc"><?php echo $row["Fuel"];?></h2>
         <h3 class="price"><?php echo $row["Price"];?></h3>
       </div>
@@ -142,7 +147,8 @@
       ?>
         <div class="seventh">
           <img class="seven" src="../img/<?php echo $row["Photo"];?>">
-        <h1 class="title"><?php echo $row["Name"];?></h1>
+          <a href="singleCar.php?id=<?php echo $row['id']; ?>" class="car-link">
+        <h1 class="title"><?php echo $row["Name"];?></h1></a>
         <h2 class="desc"><?php echo $row["Fuel"];?></h2>
         <h3 class="price"><?php echo $row["Price"];?></h3>
       </div>
@@ -160,7 +166,8 @@
       ?>
         <div class="eighth">
           <img class="eight" src="../img/<?php echo $row["Photo"];?>">
-        <h1 class="title"><?php echo $row["Name"];?></h1>
+          <a href="singleCar.php?id=<?php echo $row['id']; ?>" class="car-link">
+        <h1 class="title"><?php echo $row["Name"];?></h1></a>
         <h2 class="desc"><?php echo $row["Fuel"];?></h2>
         <h3 class="price"><?php echo $row["Price"];?></h3>
       </div>
@@ -178,7 +185,8 @@
       ?>
         <div class="xmth">
           <img class="xm" src="../img/<?php echo $row["Photo"];?>">
-        <h1 class="title"><?php echo $row["Name"];?></h1>
+          <a href="singleCar.php?id=<?php echo $row['id']; ?>" class="car-link">
+        <h1 class="title"><?php echo $row["Name"];?></h1></a>
         <h2 class="desc"><?php echo $row["Fuel"];?></h2>
         <h3 class="price"><?php echo $row["Price"];?></h3>
       </div>
@@ -196,7 +204,8 @@
       ?>
         <div class="ixth">
           <img class="ix" src="../img/<?php echo $row["Photo"];?>">
-        <h1 class="title"><?php echo $row["Name"];?></h1>
+          <a href="singleCar.php?id=<?php echo $row['id']; ?>" class="car-link">
+        <h1 class="title"><?php echo $row["Name"];?></h1></a>
         <h2 class="desc"><?php echo $row["Fuel"];?></h2>
         <h3 class="price"><?php echo $row["Price"];?></h3>
       </div>
